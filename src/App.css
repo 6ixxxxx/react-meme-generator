@@ -89,3 +89,23 @@ img{
 .top {
   top: 0;
 }
+
+@media screen and (max-width: 477px) {
+  .memebox{
+    margin: auto;
+    width: 100%; 
+  }
+
+  button{
+    width: 100%;
+  }
+
+  .inputs{
+    width: 100%;
+    }
+    
+  input{
+    box-sizing: border-box;
+    width: 50%;
+  }
+}
